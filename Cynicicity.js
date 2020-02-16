@@ -1,4 +1,4 @@
-mongodb+srv //maxherold:<Allstar1234$!$!>@the-band-jpcoi.azure.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv //maxherold:<Allstar1234%24%21%24%21>@the-band-jpcoi.azure.mongodb.net/test?retryWrites=true&w=majority
 
  const $icon = document.querySelector(".icon");
       const $arrow = document.querySelector(".arrow");
