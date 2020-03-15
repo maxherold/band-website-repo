@@ -64,11 +64,11 @@
    }
 
    a {
-       background-color: skyblue;
+       background-color: black;
        text-align: center;
        color: white;
        font-family: Impact, Charcoal, sans-serif;
-       text-shadow: 2px 1px black;
+       text-shadow: 2px 1px greenyellow;
        font-size: 26px;
    }
 
