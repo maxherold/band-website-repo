@@ -1,9 +1,9 @@
  body {
-        background-color: skyblue;
+        background-color: black;
         text-align: center;
         color: white;
         font-family: Impact, Charcoal, sans-serif;
-        text-shadow: 2px 1px black;
+        text-shadow: 2px 1px purple;
         font-size: 26px;
       }
 
@@ -16,7 +16,7 @@
       }
 
       body {
-        background: skyblue;
+        background: black;
         font-family: Impact, Charcoal, sans-serif;
         font-size: 26px;        height: 100vh;
         text-shadow: 2px 1px black;
@@ -45,7 +45,7 @@
      }
 
      p {
-        background-color: purple;
+        background-color: black;
        text-align: center;
        color: white;
        font-family: Impact, Charcoal, sans-serif;
@@ -64,7 +64,7 @@
    }
 
    a {
-       background-color:orchid;
+       background-color: skyblue;
        text-align: center;
        color: white;
        font-family: Impact, Charcoal, sans-serif;
