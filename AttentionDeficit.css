@@ -1,102 +1,96 @@
- body {
-        background-color: black;
-        text-align: center;
-        color: white;
-        font-family: Impact, Charcoal, sans-serif;
-        text-shadow: 4px 2px purple;
-        font-size: 36px;
-      }
+body {
+  background-image: url("background-sky.jpg");
+  width: 1024px;
+  height: 768px;
+  text-align: center;
+  color: white;
+  font-family: Impact, sans-serif;
+  text-shadow: 2px 1px purple;
+  font-size: 36px;
+}
 
-      img {
-        width: 230px;
-        height: 230px;
-        background-color: clear;
-        margin: 0;
-        padding: 0;
-      }
+img {
+  width: 1024px;
+  height: 768px;
+  background-color: clear;
+  margin: 0;
+  padding: 0;
+  float: inline-start;
+}
 
-      body {
-        background: black;
-        font-family: Impact, Charcoal, sans-serif;
-        font-size: 36px;        height: 100vh;
-        text-shadow: 2px 1px black;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        color:white
-    }
-    
-    #background-wrap {
-        bottom: 0;
-        left: 0;
-        padding-top: 50px;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: -1;
-    }
-    p {
-        background-color: hotpink;
-       text-align: center;
-       color: white;
-       font-family: Impact, Charcoal, sans-serif;
-       text-shadow: 2px 1px black;
-       font-size: 36px;
-     }
+img {
+  width: 350px;
+  height: 350px;
+  background-color: clear;
+  margin: 0;
+  padding: 0;
+}
 
-     p {
-        background-color: black;
-       text-align: center;
-       color: white;
-       font-family: Impact, Charcoal, sans-serif;
-       text-shadow: 2px 1px black;
-       font-size: 36px;
-     }
+body {
+  background: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 36px;        height: 100vh;
+  text-shadow: 2px 1px greenyellow;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color:white
+}
 
+#background-wrap {
+bottom: 0;
+left: 0;
+padding-top: 50px;
+position: fixed;
+right: 0;
+top: 0;
+z-index: -1;
+}
 
-   a {
-       background-color:black;
-       text-align: center;
-       color: white;
-       font-family: Impact, Charcoal, sans-serif;
-       text-shadow: 2px 1px black;
-       font-size: 36px;
-   }
+p {
+  background-color: hotpink;
+ text-align: center;
+ color: white;
+ font-family: Impact, Charcoal, sans-serif;
+ text-shadow: 2px 1px black;
+ font-size: 36px;
+}
 
-   a {
-       background-color: black;
-       text-align: center;
-       color: white;
-       font-family: Impact, Charcoal, sans-serif;
-       text-shadow: 2px 1px greenyellow;
-       font-size: 36px;
-   }
+p {
+  background-color: black;
+ text-align: center;
+ color: white;
+ font-family: Impact, Charcoal, sans-serif;
+ text-shadow: 4px 2px purple;
+ font-size: 36px;
+}
 
 
-     img {
-       width: 420px;
-       height: 420px;
-       background-color: black;
-       margin: 0;
-       padding: 0;
-     }
+a {
+ background-color:black;
+ text-align: center;
+ color: white;
+ font-family: Impact, Charcoal, sans-serif;
+ text-shadow: 2px 1px greenyellow;
+ font-size: 36px;
+}
 
-     a {
-      background-color:skyblue;
-      text-align: center;
-      color: white;
-      font-family: Impact, Charcoal, sans-serif;
-      text-shadow: 2px 1px black;
-      font-size: 46px;
-  }
+a {
+ background-color:skyblue;
+ text-align: center;
+ color: white;
+ font-family: Impact, Charcoal, sans-serif;
+ text-shadow: 2px 1px black;
+ font-size: 46px;
+}
 
 
-    img {
-      width: 420px;
-      height: 420px;
-      background-color: black;
-      margin: 24;
-      padding: 34;
-      place-content: left;
-      place-content: top;
-     }
+img {
+ width: 420px;
+ height: 420px;
+ background-color: black;
+ margin: 24px;
+ padding: 34px;
+ place-content: left;
+ place-content: top;
+}
