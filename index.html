@@ -7,11 +7,15 @@
     </head>
     <title>Attention Deficit Home</title>
     <style>
-        body {
+        body, html {
+          height: 100%;
+          margin: 0;
          border: 2px solid black;
-       background: url(background-sky.jpg);
+       background-image: url(background-sky.jpg);
+       height: 100%;
+       background-position: center;
 background-repeat: no-repeat;       
-background-size: auto;
+background-size: cover;
         color: blueviolet;
         font-family: Impact, 'Arial Narrow Bold', sans-serif;
         text-shadow: 4px 2px darkorchid;
@@ -88,6 +92,8 @@ background-size: auto;
 </style>
     <body>
     
+<div class="bg"></div>
+
       <img
         src="AD1.png"
       >
