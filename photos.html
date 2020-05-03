@@ -19,6 +19,23 @@ text-align: center;
        font-size: 42px;
         }
 
+        * {
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.column {
+  float: left;
+  width: 16.6%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
   </style>
 <body>
 
