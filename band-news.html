@@ -19,11 +19,56 @@ background-size: cover;
        font-size: 42px;
         }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
   </style>
 <body>
 
-<h1>Band News</h1>
-  <p>  </p>
+    <div class="header">
+        <h1>Band News</h1>
+        <p>This page will keep track of release dates, post links to videos, and maintain current events as we write our first album! a</p>
+      </div>
+      
+      <div class="topnav">
+        <a href="Logos/AD1.png">Main Logo</a>
+        <a href="Logos/ADsite.png">Alternate Logo</a>
+        <a href="Logos/getting-older-single.jpg">Large Logo</a>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <h2>Current Update</h2>
+<p>
+Lately, we have been discussing the idea of designing multiple logos. I have linked (above) some ideas we've come up with!
+</p>        </div>
+        
+        <div class="column">
+          <h2>Attention Deficit TV</h2>
+<p>
+
+</p>        </div>
+        
+        <div class="column">
+          <h2>Getting Older</h2>
+<p>
+
+</p>        </div>
+      </div>
 
 </body>
 </html>
