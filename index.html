@@ -20,6 +20,34 @@ background-size: cover;
        font-size: 42px;
         }
 
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: palevioletred;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: hotpink;
+}
+
+.active {
+  background-color: skyblue;
+}
+
      p {
        text-align: left;
        color: blueviolet;
@@ -84,15 +112,18 @@ background-size: cover;
         src="AD1.png"
       >
 
-      <a href="About-the-Band.html" >About the Band</a>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="https://raptor-claws.azurewebsites.net" target="_blank">Raptor Claws Picks</a></li>
+        <li style="float:right"><a class="active" href="About-the-Band.html" >About the Band</a></li>
+      </ul>
+
 
       <p2>
         <b><a href="https://www.spotify.com/us/" target="_blank">Spotify</a></b>
       </p2>
-
-      <p3>
-        <b><a href="https://raptor-claws.azurewebsites.net" target="_blank">Raptor Claws Picks</a></b>
-      </p3>
 
       <p4>
         <b><a href="https://www.youtube.com/channel/UCbdnk9DL-N_v4f20Do-__tA" target="_blank">Our YouTube Channel</a></b>
