@@ -10,15 +10,6 @@ body {
 }
 
 img {
-  width: 1024px;
-  height: 768px;
-  background-color: clear;
-  margin: 0;
-  padding: 0;
-  float: inline-start;
-}
-
-img {
   width: 350px;
   height: 350px;
   background-color: clear;
@@ -78,8 +69,8 @@ img {
  width: 420px;
  height: 420px;
  background-color: black;
- margin: 24px;
- padding: 34px;
- place-content: left;
+ margin: 2px;
+ padding: 2px;
+ place-content: center;
  place-content: top;
 }
