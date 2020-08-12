@@ -360,12 +360,12 @@ for (var i = 0; i < height; i++) {
 entities.push(new ShootingStar());
 entities.push(new ShootingStar());
 entities.push(new Terrain({mHeight : (height/2)-120}));
-entities.push(new Terrain({displacement : 120, scrollDelay : 50, fillStyle : "rgb(17,20,30)", mHeight : (height/2)-60}));
+entities.push(new Terrain({displacement : 120, scrollDelay : 50, fillStyle : "rgb(10,25,7)", mHeight : (height/2)-60}));
 entities.push(new Terrain({displacement : 100, scrollDelay : 20, fillStyle : "rgb(10,20,5)", mHeight : height/2}));
 
 //animate background
 function animate() {
-  bgCtx.fillStyle = '#110E19';
+  bgCtx.fillStyle = '#110E08';
   bgCtx.fillRect(0, 0, width, height);
   bgCtx.fillStyle = '#ffffff';
   bgCtx.strokeStyle = '#ffffff';
